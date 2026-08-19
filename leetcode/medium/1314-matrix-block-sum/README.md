@@ -41,8 +41,8 @@ Output: [[45,45,45],[45,45,45],[45,45,45]]
 
 **Language:** Java  
 **Runtime:** 6 ms (beats 95.11%)  
-**Memory:** 45.9 MB (beats 99.95%)  
-**Submitted:** 2026-08-19T04:09:41.752Z  
+**Memory:** 46.2 MB (beats 98.35%)  
+**Submitted:** 2026-08-19T04:43:42.414Z  
 
 ```java
 class Solution {
