@@ -43,9 +43,9 @@ Output: [3,2,1,4,5]
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 20 MB (beats 99.56%)  
-**Submitted:** 2026-09-11T06:02:36.979Z  
+**Runtime:** 0 ms  
+**Memory:** 19.2 MB  
+**Submitted:** 2026-09-11T06:02:45.980Z  
 
 ```py
 class Solution:
