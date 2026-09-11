@@ -40,9 +40,9 @@ Explanation: 2 does not exist in nums so return -1
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.2 MB  
-**Submitted:** 2026-09-11T06:16:34.156Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 20.6 MB (beats 37.19%)  
+**Submitted:** 2026-09-11T06:16:38.100Z  
 
 ```py
 class Solution:
