@@ -56,9 +56,9 @@ Output: []
 ## Solution
 
 **Language:** Python  
-**Runtime:** 12 ms (beats 34.32%)  
-**Memory:** 22.6 MB (beats 81.69%)  
-**Submitted:** 2026-09-11T06:06:03.166Z  
+**Runtime:** 7 ms (beats 82.70%)  
+**Memory:** 22.9 MB (beats 60.90%)  
+**Submitted:** 2026-09-11T06:17:23.793Z  
 
 ```py
 class Solution:
