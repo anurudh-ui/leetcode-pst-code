@@ -1,7 +1,7 @@
 class Solution:
     def recursive_binary_search(self, nums: list[int], target: int, start: int, end: int) -> int:
         if start <= end:
-            mid = start + (end - start) 
+            mid = start + (end - start) //2
             if nums[mid] == target:
                 return mid
             elif nums[mid] >= target:
