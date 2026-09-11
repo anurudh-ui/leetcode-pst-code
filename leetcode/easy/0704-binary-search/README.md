@@ -40,15 +40,15 @@ Explanation: 2 does not exist in nums so return -1
 ## Solution
 
 **Language:** Python  
-**Runtime:** 4 ms (beats 2.28%)  
-**Memory:** 22.2 MB (beats 9.14%)  
-**Submitted:** 2026-09-11T06:16:06.740Z  
+**Runtime:** 0 ms  
+**Memory:** 19.4 MB  
+**Submitted:** 2026-09-11T06:16:25.728Z  
 
 ```py
 class Solution:
     def recursive_binary_search(self, nums: list[int], target: int, start: int, end: int) -> int:
         if start <= end:
-            mid = start + (end - start) 
+            mid = start + (end - start) //2
             if nums[mid] == target:
                 return mid
             elif nums[mid] >= target:
