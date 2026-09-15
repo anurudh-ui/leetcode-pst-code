@@ -8,6 +8,6 @@ class Solution:
             traverse(node.left)        
             result.append(node.val)    
             traverse(node.right)       
-            
-        traverse(root)
-        return result
+        traverse (root)
+        return result     
+       
