@@ -51,8 +51,8 @@ Given the `root` of a binary tree, return  *the inorder traversal of its nodes' 
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.4 MB (beats 28.27%)  
-**Submitted:** 2026-09-15T06:58:25.328Z  
+**Memory:** 19.3 MB (beats 67.33%)  
+**Submitted:** 2026-09-15T07:02:50.644Z  
 
 ```py
 class Solution:
@@ -65,9 +65,9 @@ class Solution:
             traverse(node.left)        
             result.append(node.val)    
             traverse(node.right)       
-            
-        traverse(root)
-        return result
+        traverse (root)
+        return result     
+       
 ```
 
 ---
