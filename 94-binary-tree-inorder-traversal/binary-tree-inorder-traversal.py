@@ -1,7 +1,6 @@
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         result = []
-        
         def traverse(node):
             if not node:
                 return
