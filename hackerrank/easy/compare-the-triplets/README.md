@@ -63,7 +63,7 @@ The second line contains <em>3</em> space-separated integers, <em>b[0]</em>, <em
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T03:45:13.321Z  
+**Submitted:** 2026-09-16T03:53:01.729Z  
 
 ```java
 import java.io.*;
@@ -80,7 +80,16 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-public static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
+    /*
+     * Complete the 'compareTriplets' function below.
+     *
+     * The function is expected to return an INTEGER_ARRAY.
+     * The function accepts following parameters:
+     *  1. INTEGER_ARRAY a
+     *  2. INTEGER_ARRAY b
+     */
+
+    public static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
         int aliceScore = 0;
         int bobScore = 0;
         
@@ -95,10 +104,7 @@ public static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
         return Arrays.asList(aliceScore, bobScore);
     }
 
-
-    }
-
-
+}
 
 public class Solution {
     public static void main(String[] args) throws IOException {
