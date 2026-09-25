@@ -40,7 +40,7 @@ Output: ["1"]
 **Language:** Python  
 **Runtime:** 0 ms  
 **Memory:** 19.2 MB  
-**Submitted:** 2026-09-25T09:39:14.854Z  
+**Submitted:** 2026-09-25T09:39:31.849Z  
 
 ```py
 # Definition for a binary tree node.
@@ -53,19 +53,15 @@ class Solution:
     def binaryTreePaths(self, root: TreeNode | None) -> list[str]:
         if not root:
             return []
-
         paths = []
-
         def dfs(node: TreeNode, current_path: str):
             if not node.left and not node.right:
                 paths.append(current_path)
                 return
-
             if node.left:
                 dfs(node.left, current_path + "->" + str(node.left.val))
             if node.right:
                 dfs(node.right, current_path + "->" + str(node.right.val))
-
         dfs(root, str(root.val))
         return paths
 ```
