@@ -40,7 +40,7 @@ Output: false
 **Language:** Java  
 **Runtime:** 0 ms  
 **Memory:** 41.8 MB  
-**Submitted:** 2026-10-23T09:15:43.162Z  
+**Submitted:** 2026-10-23T09:16:00.990Z  
 
 ```java
 /**
