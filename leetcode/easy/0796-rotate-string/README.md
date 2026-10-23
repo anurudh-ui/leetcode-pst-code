@@ -14,19 +14,23 @@ A  **shift**  on `s` consists of moving the leftmost character of `s` to the rig
 
  **Example 1:** 
 
-```
-Input: s = "abcde", goal = "cdeab"
-Output: true
+ **Input:**  s = "abcde", goal = "cdeab"
 
-```
+ **Output:**  true
+
+ **Explanation:** 
+
+Rotating `s` to the left by 2 positions moves `"ab"` to the end, resulting in `"cdeab"`, which is equal to `goal`.
 
  **Example 2:** 
 
-```
-Input: s = "abcde", goal = "abced"
-Output: false
+ **Input:**  s = "abcde", goal = "abced"
 
-```
+ **Output:**  false
+
+ **Explanation:** 
+
+No sequence of rotations of `s` can produce `"abced"`. The characters appear in a different relative order, so `goal` is not a rotation of `s`.
 
  
 
@@ -38,9 +42,9 @@ Output: false
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms (beats 98.45%)  
-**Memory:** 43.5 MB (beats 31.89%)  
-**Submitted:** 2026-09-16T04:15:45.701Z  
+**Runtime:** 2 ms (beats 65.73%)  
+**Memory:** 43.1 MB (beats 87.93%)  
+**Submitted:** 2026-10-23T09:20:53.743Z  
 
 ```java
 class Solution {
