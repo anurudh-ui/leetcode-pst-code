@@ -63,9 +63,9 @@ Note that the solution remains the same since 5 and 6 are in the same location a
 ## Solution
 
 **Language:** Python  
-**Runtime:** 1 ms (beats 29.35%)  
-**Memory:** 19.4 MB (beats 96.47%)  
-**Submitted:** 2026-10-23T09:13:25.849Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 19.5 MB (beats 56.55%)  
+**Submitted:** 2026-10-23T09:14:54.390Z  
 
 ```py
 # Definition for a binary tree node.
