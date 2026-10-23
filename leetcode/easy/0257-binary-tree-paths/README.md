@@ -39,8 +39,8 @@ Output: ["1"]
 
 **Language:** Python  
 **Runtime:** 0 ms  
-**Memory:** 19.4 MB  
-**Submitted:** 2026-10-23T07:38:08.202Z  
+**Memory:** 18.9 MB  
+**Submitted:** 2026-10-23T07:38:45.580Z  
 
 ```py
 # Definition for a binary tree node.
