@@ -43,9 +43,9 @@ Given an array of strings `strs`, group the anagrams together. You can return th
 ## Solution
 
 **Language:** Python  
-**Runtime:** 12 ms (beats 58.87%)  
-**Memory:** 21.9 MB (beats 86.84%)  
-**Submitted:** 2026-10-23T07:34:14.009Z  
+**Runtime:** 0 ms  
+**Memory:** 19.1 MB  
+**Submitted:** 2026-10-23T07:34:39.054Z  
 
 ```py
 from collections import defaultdict
