@@ -50,9 +50,9 @@ Explanation: Subarray [-2] has maximum sum -2.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 7 ms (beats 50.82%)  
-**Memory:** 50.7 MB (beats 96.62%)  
-**Submitted:** 2026-09-16T04:06:57.267Z  
+**Runtime:** 7 ms (beats 53.03%)  
+**Memory:** 50.4 MB (beats 98.29%)  
+**Submitted:** 2026-10-24T03:22:15.125Z  
 
 ```java
 class Solution {
